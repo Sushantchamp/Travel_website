@@ -84,7 +84,7 @@ const products = [
     id: 5,
     image: './assets/images/buddha.avif',
     title: 'Buddha Temple, Singapore',
-    para: 'The Buddha Temple in Singapore is a stunning temple known for intricate architecture, housing sacred Buddhist artifacts and offering a serene atmosphere',
+    para: 'The Buddha Temple in Singapore is a stunning temples known for intricate architecture, housing sacred Buddhist artifacts and offering a serene atmosphere',
   },
 ];
 
