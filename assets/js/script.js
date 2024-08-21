@@ -98,7 +98,9 @@ document.getElementById('default-search-btn').addEventListener('click', function
 
 // Event listener for the clear button
 document.getElementById('clear-btn').addEventListener('click', function () {
-  document.getElementById('search-input').value = '';
+  const searchInput = document.getElementById('search-input');
+  searchInput.value='';
+  searchInput.focus();
   displayItems(products);
   document.getElementById('root').style.display = 'none';
 });
